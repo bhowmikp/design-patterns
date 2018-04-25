@@ -5,7 +5,7 @@ A class of which only a single instance can exist, and provides a global point o
 **Frequency of Use** - 4/5
 
 ## UML Class Diagram
-![singleton_uml][singleton.gif]
+![Singleton UML](singleton.gif)
 
 ## Participants
 The classes and objects participating in this pattern are:
