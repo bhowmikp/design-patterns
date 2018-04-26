@@ -4,13 +4,9 @@ public class Singleton {
   // static because it needs to be available on a global basis
   private static Singleton firstInstance = null;
 
-  private String greeting;
-
   // private to make sure only one instance and no one can create
   // their own instance
-  private Singleton(){
-    this.greeting = "Hello";
-  }
+  private Singleton(){}
 
   /**
   * Creates instance if no instance exists
@@ -25,13 +21,6 @@ public class Singleton {
     }
 
     return firstInstance;
-  }
-
-  /**
-  * Get contents of class
-  */
-  public String toString(){
-    return ("Greeting is: " + greeting);
   }
 
 }
