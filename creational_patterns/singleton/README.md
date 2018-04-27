@@ -14,7 +14,7 @@ The classes and objects participating in this pattern are:
   - responsible for creating and maintaining its own unique instance.
 
 ## Applicability
-Use the singleton pattern when:
+Use the Singleton pattern when:
 - there must be exactly one instance of a class, and it must be accessible to clients from well-known access point
 - when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code
 

@@ -17,7 +17,7 @@ The classes and objects participating in this pattern are:
   - creates a new object by asking a prototype to clone itself
 
 ## Applicability
-Use the prototype pattern when a system should be independent of how its products are created, composed, and represented; and:
+Use the Prototype pattern when a system should be independent of how its products are created, composed, and represented; and:
 - when the classes to instantiate are specified at run-time, for example by dynamic loading; or
 - to avoid building a class hierarchy of factories that parallels the class hierarchy of products; or
 - when instances of a class can have one of only a few different combinations of state. It may be more convenient to install a corresponding number of prototypes and clone them rather than instantiating the class manually
