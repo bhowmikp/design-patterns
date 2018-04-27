@@ -23,6 +23,7 @@ Use the Prototype pattern when a system should be independent of how its product
 - when instances of a class can have one of only a few different combinations of state. It may be more convenient to install a corresponding number of prototypes and clone them rather than instantiating the class manually
 
 ## Benefits
+- **Hides the concrete product classes from the client, thereby reducing the number of names clients know about**.
 - **Adding and removing products at run-time**.
 - **Specifying new objects by varying values**. This kind of design lets users define new "classes" without programming. The Prototype pattern can greatly reduce the number of classes a system needs.
 - **Specifying new objects by varying structure**.
