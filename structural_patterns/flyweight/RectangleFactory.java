@@ -13,7 +13,7 @@ public class RectangleFactory {
 
   public static MyRectangle getRectangle(Color color) {
 
-    MyRectangle rectangle = (MyRectangle)rectangleByColor.get(color);
+    MyRectangle rectangle = rectangleByColor.get(color);
 
     if (rectangle == null) {
       rectangle = new MyRectangle(color);
