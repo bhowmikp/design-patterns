@@ -12,7 +12,7 @@ The classes and objects participating in this pattern are:
 - Mediator (Mediator)
   - defines an interface for communicating with Colleague objects.
 - ConcreteMediator (StockMediator)
-  - implements cooperative behaviour by coordinating Colleagure objects.
+  - implements cooperative behavior by coordinating Colleague objects.
   - knows and maintains its colleagues.
 - Colleague classes (Colleague, GoldmanSachs, JPMorgan)
   - each Colleague class knows its Mediator object.
@@ -25,8 +25,8 @@ Use the Mediator pattern when:
 - a behaviour that's distributed between several classes should be customizable without a lot of subclassing.
 
 ## Benefits
-- **It limits subclassing**. A mediator localizes behaviour that otherwise would be distributed among several objects.
+- **It limits subclassing**. A mediator localizes behavior that otherwise would be distributed among several objects.
 - **It decouples colleagues**. You can vary and reuse Colleague and Mediator classes independently.
 - **It simplifies object protocols**. A mediator replaces many-to-many interactions with one-to-many interactions between the mediator and its colleagues. One-to-many relationships are easier to understand, maintain, and extend.
-- **It abstracts how objects cooperate**. Making mediation an independent concept and encapsulating it in an object lets you focus on how objects interact apart from their individual behaviour.
+- **It abstracts how objects cooperate**. Making mediation an independent concept and encapsulating it in an object lets you focus on how objects interact apart from their individual behavior.
 - **It centralizes control**. The Mediator pattern trades complexity of interaction for complexity in the mediator.

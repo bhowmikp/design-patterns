@@ -1,6 +1,6 @@
 # Factory Method
 
-Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defere instantiation to subclass.
+Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclass.
 
 **Frequency of Use** - 5/5
 
@@ -22,7 +22,7 @@ The classes and objects participating in this pattern are:
 ## Applicability
 Use the Factory Method pattern when:
 - a class can't anticipate the class of objects it must create.
-- a class wants its subclasses to specify the obejcts it creates.
+- a class wants its subclasses to specify the objects it creates.
 - classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate.
 
 ## Benefits

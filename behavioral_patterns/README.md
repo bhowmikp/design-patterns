@@ -1,6 +1,6 @@
 ## Behavioral Patterns
 
-Behavioral patters are concerned with algorithms and the assignment of responsibilites between objects. Behavioral patterns describe not just patterns of objects or classes but also the pattern of communication between them. These patterns characterize complex control flow that's difficult to follow at run-time.
+Behavioral patters are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the pattern of communication between them. These patterns characterize complex control flow that's difficult to follow at run-time.
 
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 

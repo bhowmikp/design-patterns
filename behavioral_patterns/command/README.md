@@ -1,6 +1,6 @@
 # Command
 
-Encapsulate a request an an object, thereby letting you parameterize clients with different requests, queur or log requests, and support undoable operations.
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
 **Frequency of Use** - 4/5
 

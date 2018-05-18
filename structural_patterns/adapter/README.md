@@ -21,5 +21,5 @@ The classes and objects participating in this pattern are:
 ## Applicability
 Use the Adapter pattern when:
 - you want to use an existing class, and its interface does not match the one you need.
-- you want to create a reusable class that cooperates with unrelated or unforseen classes, that is, classes don't necessarily have compatible interfaces.
+- you want to create a reusable class that cooperates with unrelated or unforeseen classes, that is, classes don't necessarily have compatible interfaces.
 - (object adapter only) you need to use several existing subclasses, but it's impractical to adapt their interface by subclassing every one. An object adapter can adapt the interface of its parent class.

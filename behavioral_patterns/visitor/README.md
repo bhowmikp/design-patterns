@@ -30,5 +30,5 @@ Use the Visitor pattern when:
 
 ## Benefits
 - **Visitor makes adding new operations easy**. Simply add a new visitor.
-- **A visitor gathers related operations and seperates unrelated ones**. Related behaviour isn't spread over the classes defining the object structure; it's localized in a visitor. Unrelated sets of behaviour are partitioned in their own visitor subclasses.
+- **A visitor gathers related operations and separates unrelated ones**. Related behavior isn't spread over the classes defining the object structure; it's localized in a visitor. Unrelated sets of behavior are partitioned in their own visitor subclasses.
 - **Visiting across class hierarchies**. Visitors can visit objects that don't have a common parent class.

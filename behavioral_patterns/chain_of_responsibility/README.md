@@ -14,7 +14,7 @@ The classes and objects participating in this pattern are:
   - (optional) implements the successor link.
 - ConcreteHandler (AddNumbers, SubtractNumbers, MultNumbers, DivideNumbers)
   - handles requests it is responsible for.
-  - canaccess its successor.
+  - can access its successor.
   - if the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor.
 - Client (Client)
   - initiates the request to a ConcreteHandler object on the chain.
@@ -27,4 +27,4 @@ Use Chain of Responsibility when:
 
 ## Benefits
 - **Reduced coupling**. The pattern frees an object from knowing which other object handles a request.
-- **Added flexibility in assigning responsibilities to objects**. Can add or change responsibilites for handling a request by adding to or otherwise changing the chain at run-time.
+- **Added flexibility in assigning responsibilities to objects**. Can add or change responsibilities for handling a request by adding to or otherwise changing the chain at run-time.

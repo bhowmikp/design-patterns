@@ -12,7 +12,7 @@ The classes and objects participating in this pattern are:
 - Prototype (Animal)
   - declares an interface for cloning itself
 - ConcretePrototype (Sheep)
-  - implements an opertion for cloning itself
+  - implements an operation for cloning itself
 - Client (Client)
   - creates a new object by asking a prototype to clone itself
 

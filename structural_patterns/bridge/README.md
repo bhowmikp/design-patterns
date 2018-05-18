@@ -1,6 +1,6 @@
 # Bridge
 
-Decouple an abstraction from its implementation so that the two can vary independenty.
+Decouple an abstraction from its implementation so that the two can vary independently.
 
 **Frequency of Use** - 3/5
 
@@ -22,10 +22,10 @@ The classes and objects participating in this pattern are:
 ## Applicability
 Use the Bridge pattern when:
 - you want to avoid a permanent binding between an abstraction and its implementation.
-- both the abstractions and their implementations should be extensible by subclassing. In this case, the Bridge pattern lets you combine the different abstractions and implementations and extend them independenty.
+- both the abstractions and their implementations should be extensible by subclassing. In this case, the Bridge pattern lets you combine the different abstractions and implementations and extend them independently.
 - changes in the implementation of an abstraction should have no impact on clients; the code should not have to be recompiled.
 
 ## Benefits
 - **Decoupling interface and implementation**. An implementation is not bound permanently to an interface. The implementation of an abstraction can be configured at run-time.
-- **Improved extensibility**. Extend the Abstraction and Implementor hierarchies independenty.
+- **Improved extensibility**. Extend the Abstraction and Implementor hierarchies independently.
 - **Hiding implementation details from clients**.

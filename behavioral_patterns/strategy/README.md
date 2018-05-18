@@ -20,13 +20,13 @@ The classes and objects participating in this pattern are:
 
 ## Applicability
 Use the Strategy pattern when:
-- many related classes differ only in their behaviour. Strategies provide a way to configure a class with many behaviours.
+- many related classes differ only in their behavior. Strategies provide a way to configure a class with many behaviors.
 - you need different variants of an algorithm. For example, you might define algorithms reflecting different space/time trade-offs. Strategies can be used when these variants are implemented as a class hierarchy of algorithms.
 - an algorithm uses data that clients shouldn't know about. Use the Strategy pattern to avoid exposing complex, algorithm-specific data structures.
-- a class defines many behaviours, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
+- a class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
 
 ## Benefits
-- **Families of related algorithms**. Hierarchies of Strategy class define a family of algorithms or behaviours for contexts to reuse.
-- **An alternative to subclassing**. Inheritance offers another way to support a variety of algorithms or behaviours.
-- **Strategies eliminate conditional statements**. The Strategy pattern offers an alternative to conditional statements for selecting desired behaviour.
-- **A choice of implementations**. Strategies can provide different implementations of the same behaviour. The client can choose among strategies with different time and space trade-offs.
+- **Families of related algorithms**. Hierarchies of Strategy class define a family of algorithms or behaviors for contexts to reuse.
+- **An alternative to subclassing**. Inheritance offers another way to support a variety of algorithms or behaviors.
+- **Strategies eliminate conditional statements**. The Strategy pattern offers an alternative to conditional statements for selecting desired behavior.
+- **A choice of implementations**. Strategies can provide different implementations of the same behavior. The client can choose among strategies with different time and space trade-offs.
