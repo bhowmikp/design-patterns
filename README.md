@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 # Design Patterns
 
 A design pattern names, abstracts, and identifies the key aspects of a common design structure that make it useful for creating a reusable object-oriented design. The design pattern identifies the participating classes and instances, their roles and collaborations, and the distribution of responsibilites. Each design pattern focuses in a particular object or issue. It describes when it applies, whether it can be applied in view of other design constraints, and the consequences and trade-offs of its use.
